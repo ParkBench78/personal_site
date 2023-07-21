@@ -1,14 +1,7 @@
-h1, h2, section {
-  font-family: 'Raleway', sans-serif;
-}
-
-h1 {
-  font-weight: 300;
-  font-size: 2rem;
-}
-
 section > img {
+  width: 128px;
   height: 128px;
+  font-family: 'Raleway', sans-serif;
 }
 
 section:nth-of-type(odd) > img {
@@ -16,12 +9,11 @@ section:nth-of-type(odd) > img {
   margin: 0 24px 24px 0;
 }
 
-
 section:nth-of-type(even) > img {
   float: right;
-  margin: 0 0 24px 24px;
+  margin: 0 0 24px 24px 0;
 }
 
 section {
-  border-top: 1px solid #bbb;
+  border-top: 2px solid rgb(163, 159, 75);
 }

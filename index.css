@@ -1,14 +1,13 @@
 h1, h2 {
-  font-weight: 300;
   font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-  font-size: 2em;
+h2 {
+  font-size: 1.5rem;
 }
 
-h2 {
-  font-size: 1.5em;
+section {
+  border-bottom: 2px solid rgb(163, 159, 75);
 }
 
 .quote {
@@ -16,7 +15,8 @@ h2 {
   font-weight: 100;
   color: white;
   text-shadow: 1px 1px 2px black;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   margin-top: 2em;
 }
+

@@ -1,13 +1,11 @@
 main > h1 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 2rem;
   border-bottom: 1px solid #ccc;
 }
 
 .project {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   width: calc(100% - 6em);
   background: #ffebcc;
   background: #fafafa;
@@ -17,15 +15,16 @@ main > h1 {
   padding: 1em;
 }
 
-.project-name {
+.project_name {
   font-weight: 900;
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0 0 1em;
   border-bottom: 1px solid #ccc;
+  font-family: 'Satisfy', cursive !important;
 }
 
 .project p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 100;
   margin: 0 0 1em;
 }
@@ -34,16 +33,10 @@ main > h1 {
   margin-bottom: 0;
 }
 
-section:nth-of-type(odd) img {
-  width: 240px;
-  float: right;
-  margin-left: 1em;
-  margin-bottom: 1em;
-}
-
-section:nth-of-type(even) img {
+section > img {
   width: 240px;
   margin-right: 1em;
   margin-bottom: 1em;
   float: left;
 }
+

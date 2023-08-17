@@ -1,0 +1,8 @@
+body {
+  background-color: rgb(156, 171, 104);
+  border: solid 5px;
+  border-color: rgb(29, 89, 29);
+  padding: 5em;
+  position: relative;
+  z-index: 0;
+}

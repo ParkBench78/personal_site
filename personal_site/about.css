@@ -1,0 +1,19 @@
+section > img {
+  width: 128px;
+  height: 128px;
+  font-family: 'Raleway', sans-serif;
+}
+
+section:nth-of-type(odd) > img {
+  float: left;
+  margin: 0 24px 24px 0;
+}
+
+section:nth-of-type(even) > img {
+  float: right;
+  margin: 0 0 24px 24px 0;
+}
+
+section {
+  border-top: 2px solid rgb(163, 159, 75);
+}

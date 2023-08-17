@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- styles for all pages -->
+  <link rel="stylesheet" href="site.css">
+  <!-- styles for this page -->
+  <link ref="stylesheet" href="contact.css">
+  <script src="javascript.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ContactInformationForm</title>
+</head>
+<style> 
+  input[type=submit] {
+    background-color: rgb(224, 129, 14);
+    border: none;
+    color: rgb(26, 66, 36);
+    font-family: 'Raleway', sans-serif;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin: 1vh;
+  }
+  input[style=email] {
+    background-color: aliceblue;
+
+  }
+  </style>
+<body>
+  <header>
+    <span class="name">Imelda A Yoon</span>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a class="active" href="contact.html">Contact</a>  
+    </nav>
+
+  </header>
+ <main>
+  <h1>Contact Information</h1>
+  <section class="project">
+    <h2 class="project_name">Please, leave your contact information . </h2>
+    <form id="frmMain" action="index.html" target="_blank">
+        <div class="form" style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        ">
+           <div style="
+              flex: 1;
+              /* background-color: antiquewhite; */
+           ">
+
+            <label for="fname">First Name:</label><br>
+            <input id="txtfName" type="text"><br><br>
+           </div> 
+
+           <div style="
+           flex: 1;
+           ">
+            <label for="lname">Last Name:</label><br>
+            <input id="textlName" type="text">
+           </div>
+
+           <div style="
+           flex: 2;
+           ">
+            <label for="email">Email Address:</label><br>
+            <input style="
+              width: 50%;
+            " id="txtEmail" type="email">
+           </div>
+           
+        
+        <!-- <div class="form" ; style="text-align: center"><br> -->
+            
+        </div>
+        <p>
+            If you have any questions or comments, leave me a message below. <br />
+            Thank you for visiting my personal site. I look forward to our correspondence.
+        </p>
+        <div class="form" style="text-align: center"; >
+            <label for="message">Message:</label><br><br>
+            <textarea id="textmessage" name="text" row="30" cols="60"></textarea><br>
+        </div> 
+        <div class="submit" style="text-align: center">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+ <footer>
+      <!-- Footer is here. -->
+      <div class="center">
+        <input class="button" type="button" onclick="hi()" value="Javascript"> 
+      </div>
+  <a href="htttps://facebook.com" target="_blank">
+    <img class="media-link" src="images/facebook.svg" alt>
+  </a>
+  <a href="https://linkedin.com" target="_blank">
+    <img class="media-link" src="images/linkedin.svg" alt>
+  </a> 
+  <a href="https://twitter.com" target="_blank">
+    <img="media-link" src="images/twitter.svg" alt>
+  </a> 
+ </footer>   
+</body>
+</html>
